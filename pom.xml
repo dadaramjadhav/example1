@@ -26,17 +26,11 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-		<!-- for snapshot -->
-		<snapshotRepository>
-			<id>nexusdeploymentrepo</id>
-			<url>http://34.123.64.101:8081/repository/my-maven-snapshot/</url>
-		</snapshotRepository>
-		<!-- for release -->
-		<repository>
-			<id>nexusdeploymentrepo</id>
-			<url>http://34.123.64.101:8081/repository/my-maven-release/</url>
-		</repository>
-
-	</distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0w0bzplxwp1i-artifactory-primary-0-snapshots</name>
+        <url>https://dm12345.jfrog.io/artifactory/accenture-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 	
 </project>
